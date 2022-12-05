@@ -8063,6 +8063,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8798545800731453707, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545800731453707, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545800731453707, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545801254163080, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545801254163080, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545801254163080, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8798545801447539425, guid: e933855a6b220254ab379f286fa49791, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -8079,6 +8103,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 8146705255865698704}
+    - target: {fileID: 8798545801494032390, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545801494032390, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798545801494032390, guid: e933855a6b220254ab379f286fa49791, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4716981
+      objectReference: {fileID: 0}
     - target: {fileID: 8798545802110131810, guid: e933855a6b220254ab379f286fa49791, type: 3}
       propertyPath: m_Pivot.x
       value: 0

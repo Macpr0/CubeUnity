@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
+    public float backwardsForce = 1f;
 
     // Update is called once per frame + Fixed, becaus Physics
     void FixedUpdate()
@@ -22,6 +23,10 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);             
         }
+        //if (Input.GetKey("s"))
+        //{
+        //    rb.AddForce(0, 0, -backwardsForce * Time.deltaTime, ForceMode.VelocityChange);
+        //}
         if (rb.position.y < -5f) 
         {
             FindObjectOfType<GameManager>().EndGame();
