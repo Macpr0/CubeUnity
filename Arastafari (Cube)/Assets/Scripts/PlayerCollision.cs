@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour {
 
     public PlayerMovement movement;
-    public AudioSource bamSound;
+    [SerializeField] AudioSource bamSound;
 
     void Start()
     {
